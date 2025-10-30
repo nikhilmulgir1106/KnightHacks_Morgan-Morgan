@@ -1,0 +1,36 @@
+# FastAPI Backend Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# AI/LLM Integration
+openai==1.10.0
+anthropic==0.18.0
+
+# Async Support
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Configuration Management
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Data Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Calendar Integration
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.116.0
+
+# Email Integration (for notifications)
+sendgrid==6.11.0
+
+# Date/Time Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Twilio Integration (for voice calling)
+twilio==9.0.4
